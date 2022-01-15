@@ -1,0 +1,35 @@
+     body {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 5rem;
+      background-color: #F2E8C6;
+      color: white;
+      text-align: center;
+      margin-top: 5%;
+    }
+
+    .container {
+      background: #000000d0;
+      padding: 2% 0;
+      margin: auto;
+      max-width: 80%;
+    	width: 100%;
+      border-radius: 40px;
+      -webkit-box-shadow: 0 0 70px -10px
+      background-color: black;
+      opacity: 0.8;
+    }
+
+    .container:hover {
+	  -webkit-transform: scale(1.1) perspective(800px);
+	   transform: scale(1.1) perspective(800px);
+     transition: -webkit-transform 300ms ease;
+     transition: transform 300ms ease;
+   }
+
+   .text {
+     font-weight: 400;
+     font-size: 3rem;
+     color: #000000d0;
+     opacity: 0.8;
+   }
